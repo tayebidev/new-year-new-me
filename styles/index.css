@@ -7,9 +7,9 @@ body {
 .banner-container {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    height: 800px;
-    background-position: auto;
-    margin-bottom: 150px;
+    height: 100%;
+    width: 1600px;
+    margin-bottom: 00px;
 }
 
 .banner-content {
@@ -45,7 +45,7 @@ body {
 
 /* years section style */
 .year-container {
-    margin: 150px 270px 150px 210px;
+    padding: 150px 270px 150px 210px;
 }
 
 .year {
@@ -56,8 +56,12 @@ body {
 }
 
 .year-pic {
-    border-radius: 187px 45px;
+    border-radius: 50px 50px;
     background: rgba(241, 91, 34, 0.20);
+}
+
+.year-content {
+    max-width: 415px;
 }
 
 .year-title {
@@ -75,20 +79,81 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.points{
+
+.points {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 0;
-}.fa-solid{
+}
+
+.fa-solid {
     color: #16D887;
 }
+
 /* end of preavious year */
 
 /* my plans  */
-.my-plans{
+.my-plans-container {
+    margin: 0 230px 150px;
+}
+
+.my-plans {
     color: #151414;
-font-size: 40px;
-font-weight: 700;
-text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.start-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.star {
+    margin-right: 90px;
+}
+
+.start-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.start-starus {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+/* hand watch style */
+.watch-container {
+    border: 01px solid red;
+    margin: 0 230px 150px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 1140px;
+}
+
+.mindset-title {
+    width: 459px;
+    /* color: #FFF; */
+    font-size: 40px;
+    font-weight: 700;
+}
+.mindset-btn{
+    
+    border-radius: 5px;
+    border: 0;
+    background: #FFF;
+    padding: 20px 25px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
 }
